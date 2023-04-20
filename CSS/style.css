@@ -1,0 +1,96 @@
+* {
+    background-color: rgb(218, 89, 14);
+}
+section {
+    position: relative; /* le dice a un elemento que se mueva con respecto a otro elemento. (activa la opcion de top) mas abajo se explica) */
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    top: 30px; /* este estilo se activa con una posicion relativa, indicanto un margen superior*/
+    border: 2px solid rgb(255, 255, 255); /* agrega un corde de 2px color blanco en forma de linea */
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5%; 
+}
+
+.ID {
+    width: 140px; /* indica el ancho de un elemento */
+    height: 140px; /* indica el alto */ 
+    border-radius: 1%; /* crea un borde redondo indicado en % , para lograr un circulo */
+    display: block; /* Le dice a cada elemento como debe comportarse como bloque o lineal*/
+    margin: 0 auto; 
+}
+
+.name {
+    text-align: center; /* alinea el texto de forma centrada */ 
+    font-size: 45px;/* tamaño de la fuente */ 
+    color: rgb(209, 63, 5);
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.Puesto{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(18, 14, 24);
+    font-family: cursive;
+    background-color: rgb(255, 255, 255);
+}
+
+.links {
+    padding-top: 30px;
+    width: 50%;
+    margin: 0 auto; /*  Centra un elemento de tipo bloque */
+    background-color: rgb(255, 255, 255);
+}
+
+a {
+    padding: 5px;
+    height: 25px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    display: block;
+    text-align: center;
+    text-decoration: none; /* Quita la linea del hipervinculo*/
+}
+
+.instagram {
+    background-color: rgb(251, 144, 105);
+}
+.instagram:hover {
+    background-color: rgb(23, 182, 42);
+    position: relative;
+    bottom: 1px;
+}
+
+.facebook {
+    background-color: rgb(21, 60, 218);
+}
+.facebook:hover {
+    background-color: rgb(23, 182, 42);
+    position: relative;
+    bottom: 1px;
+}
+
+.linkedin {
+    background-color: rgb(75, 174, 204);
+}
+.linkedin:hover{
+    background-color: rgb(23, 182, 42);
+    position: relative;
+    bottom: 1px;
+}
+
+.twitter {
+    background-color: rgb(47, 181, 185);
+}
+.twitter:hover{
+    background-color: rgb(23, 182, 42);
+    position: relative;
+    bottom: 1px;
+}
